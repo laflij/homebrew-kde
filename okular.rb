@@ -2,7 +2,7 @@ require File.join(File.dirname(__FILE__), 'base_kde_formula')
 
 class Okular < BaseKdeFormula
   homepage 'http://okular.kde.org/'
-  head '/users/abc/src/git.git', :using => :git
+  url '/users/abc/src/git.git', :using => :git
   sha1 ''
 
   depends_on 'kdelibs'
